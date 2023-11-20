@@ -4,11 +4,13 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
+    <style name="FancyLabel" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/alfa_slab_one</item>
+    </style>
+
     <style name="MyButton" parent="Widget.Material3.Button">
         <item name="strokeColor">@color/button_stroke</item>
         <item name="strokeWidth">4dp</item>
         <item name="backgroundTint">@color/button_tint</item>
-        <item name="android:textAppearance">@style/AllCapsLabel</item>
-        <item name="android:textColor">@color/button_text</item>
     </style>
 </resources>
