@@ -3,7 +3,12 @@
     <style name="Base.Theme.AppResources2" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="materialButtonStyle">@style/DefaultButtonStyle</item>
     </style>
 
+    <style name="DefaultButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:textAppearance">@style/AllCapsLabel</item>
+    </style>
+    
     <style name="Theme.AppResources2" parent="Base.Theme.AppResources2" />
 </resources>
