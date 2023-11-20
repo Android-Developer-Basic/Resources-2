@@ -6,16 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- android:fontFamily="sans-serif" - cистемный шрифт, без засечек -->
+    <!-- android:fontFamily="font/creato_r" - наш шрифт -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world"
         android:textSize="24sp"
-        android:fontFamily="sans-serif"
+        android:fontFamily="@font/creato_r"
         android:textStyle="bold"
-        android:typeface="monospace"
-        android:textFontWeight="900"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
