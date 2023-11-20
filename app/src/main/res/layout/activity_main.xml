@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- android:fontFamily="font/creato_r" - наш шрифт -->
     <TextView
         android:id="@+id/hello"
         android:layout_width="wrap_content"
