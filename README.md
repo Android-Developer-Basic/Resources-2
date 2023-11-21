@@ -1,4 +1,4 @@
-# AndroidStudio
+# Resources-2
 Демо-приложение к вебинару Resources #2
 
 ## Структура проекта
