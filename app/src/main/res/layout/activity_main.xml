@@ -17,6 +17,8 @@
         app:strokeColor="?attr/myBorderColor"
         app:strokeWidth="2dp"
 
+        android:scaleType="fitCenter"
+
         app:layout_constraintBottom_toTopOf="@id/button1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -9,7 +9,7 @@ import coil.load
 import coil.request.ImageRequest
 
 private const val pic1 = "https://picsum.photos/id/63/200/300"
-private const val pic2 = "https://picsum.photos/id/85/200/300"
+private const val pic2 = "https://picsum.photos/id/85/300/200"
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadPic1() {
+        imageView.scaleType = ImageView.ScaleType.CENTER_CROP
         val request = ImageRequest.Builder(this)
             .data(pic1)
             .crossfade(true)
@@ -43,6 +44,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadPic2() {
+        imageView.scaleType = ImageView.ScaleType.FIT_CENTER
         imageView.load(pic2) {
             crossfade(true)
             crossfade(2000)
