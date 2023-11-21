@@ -6,4 +6,7 @@
     <color name="button_stroke">#FF000000</color>
     <color name="button_tint">#FF843525</color>
     <color name="button_text">#FFFFFF</color>
+
+    <color name="dark_grey">#FF404040</color>
+    <color name="light_grey">#FF808080</color>
 </resources>

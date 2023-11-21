@@ -11,6 +11,6 @@
     <style name="MyButton" parent="Widget.Material3.Button">
         <item name="strokeColor">@color/button_stroke</item>
         <item name="strokeWidth">4dp</item>
-        <item name="backgroundTint">@color/button_tint</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
     </style>
 </resources>

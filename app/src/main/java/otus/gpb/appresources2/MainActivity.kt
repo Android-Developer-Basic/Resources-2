@@ -4,6 +4,8 @@ import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.core.content.res.getColorOrThrow
+import androidx.core.content.withStyledAttributes
 
 class MainActivity : AppCompatActivity() {
     private lateinit var hello: TextView
