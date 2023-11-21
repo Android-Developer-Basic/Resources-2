@@ -4,7 +4,7 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
-    <style name="FancyLabel" parent="TextAppearance.Material3.LabelLarge">
+    <style name="AllCapsLabel.FancyLabel">
         <item name="fontFamily">@font/alfa_slab_one</item>
     </style>
 
