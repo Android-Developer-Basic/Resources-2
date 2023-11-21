@@ -5,8 +5,7 @@
         <item name="colorPrimary">@color/dark_grey</item>
         <item name="materialButtonStyle">@style/DefaultButtonStyle</item>
 
-        <item name="myTextColor">@color/dark_green</item>
-        <item name="myTextAppearance">@style/AllCapsLabel</item>
+        <item name="myBorderColor">@color/dark_green</item>
     </style>
 
     <style name="DefaultButtonStyle" parent="Widget.Material3.Button">

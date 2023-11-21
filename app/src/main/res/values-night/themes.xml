@@ -4,7 +4,6 @@
         <!-- Customize your dark theme here. -->
         <item name="colorPrimary">@color/light_grey</item>
 
-        <item name="myTextColor">@color/light_green</item>
-        <item name="myTextAppearance">@style/AllCapsLabel.FancyLabel</item>
+        <item name="myBorderColor">@color/light_green</item>
     </style>
 </resources>
